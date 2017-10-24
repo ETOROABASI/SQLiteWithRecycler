@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.sqlitewithrecycler.ui.ListActivity">
+
+
+    <Button
+        android:id="@+id/btn_list_home"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:text="@string/home" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recView_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/btn_list_home"
+        android:layout_margin="8dp"
+        android:background="#e8eaf6">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
